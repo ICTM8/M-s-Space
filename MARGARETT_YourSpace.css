@@ -1,0 +1,281 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), 
+                      url("https://i.pinimg.com/736x/7b/17/95/7b17951abe3441a502afda0794f90a90.jpg");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+
+
+
+#container {
+    padding: 20px 40px;
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+
+.home {
+    background-color: #F6D9AD;
+    padding: 20px;
+    max-width: 900px;
+    margin: 50px auto;
+    border: 5px solid #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.hamster-welcome {
+    display: flex; 
+    align-items: center;
+    gap: 100px;
+}
+
+.hamster-pic img {
+    max-width: 450px;
+    border-radius: 10px;
+    border: outset;
+}
+
+.welcome-text {
+    max-width: 600px;
+}
+
+.welcome-text h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.welcome-text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: black;
+}
+
+.update-log,.status-bar,.cute-image2 {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.update-log {
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px outset;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.update-log h2 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.update-log p {
+    font-size: 1rem;
+    color: black;
+}
+
+
+.myrat {
+    display: inline-block;
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+.myrat img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: outset;
+}
+
+.status-bar {
+    width: 180px;
+    height: 250px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px outset;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.status-bar h3 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.status-bar p {
+    font-size: 1rem;
+    color: black;
+}
+
+
+.status-image img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 2px outset;
+}
+
+
+
+.cute-image2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: outset;
+}
+
+
+
+
+.aboutus {
+    background-color: #FBEBC9;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid #f0f0f0;
+    margin: 20px auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.aboutus-text1 {
+	position: absolute;
+  	top: 10%;
+  	left: 32%;
+  	right: 40%;
+  	width: 64%;
+  	height: 100px;
+}
+
+.aboutus-text1 h1 {
+	font-size: 2rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.aboutus-text1 p {
+	font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.aboutus-text2 {
+	position: absolute;
+  	top: 50%;
+  	left: 32%;
+  	right: 40%;
+  	width: 64%;
+  	height: 100px;
+}
+
+.aboutus-text2 h1 {
+	font-size: 2rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.aboutus-text2 p {
+	font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.twohamsters {
+	border-radius: 10px;
+    border: outset;
+    max-width: 1000px;
+}
+
+
+.contact {
+    background-color: #FDF9DE;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid #f0f0f0;
+    margin: 20px auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;}
+
+.catphone {
+	border-radius: 10px;
+    border: outset;
+    max-width: 1000px;
+}
+.contact-text {
+	font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: black;
+    position: absolute;
+  	top: 30%;
+  	left: 40%;
+  	right: 40%;
+  	width: 64%;
+  	height: 100px;
+}
+
+.feedback {
+    background-color: #B9A579;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.navbar {
+    height: 10vh;
+    width: 100%;
+    background-color: #9E7A57;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.navbar #navbar2 {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 4%;
+    width: 100%;
+}
+
+
+.navbar #navbar2 .nav-link {
+    text-decoration: none;
+    color: white;
+    margin: 0 1rem;
+    font-size: 1.19rem;
+    transition: color 0.3s ease;
+}
+
+
+.navbar #navbar2 .nav-link:hover {
+    color: pink;
+}
